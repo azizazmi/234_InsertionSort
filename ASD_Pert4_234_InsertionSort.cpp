@@ -9,7 +9,7 @@ void insertionSort() {
     int arr[20];
 
     for(i = 1; i <= n - 1; i++) {   //step 1
-
+        temp = arr[1];  //step 2
     }
 }
 
