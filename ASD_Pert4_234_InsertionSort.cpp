@@ -1,6 +1,3 @@
-// ASD_Pert4_234_InsertionSort.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
@@ -13,6 +10,11 @@ void insertionSort() {
 
         j = j - 1;  //step 3
 
+        while (j <= 0 && arr[j] > temp)   //step 4
+        {
+            arr[j + 1] = arr[j]; //step 4a
+            j--;  //step 4b
+        }
     }
 }
 
