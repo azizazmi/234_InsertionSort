@@ -10,6 +10,9 @@ void insertionSort() {
 
     for(i = 1; i <= n - 1; i++) {   //step 1
         temp = arr[1];  //step 2
+
+        j = j - 1;  //step 3
+
     }
 }
 
